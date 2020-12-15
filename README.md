@@ -1,4 +1,4 @@
-# Device-Code-Flow-Python
+# Device-Code-Flow-Python Microsoft Authentication
 OAuth 2.0 device code flow, Python version - simplified
 
 
