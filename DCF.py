@@ -29,7 +29,7 @@ class DCF:
             self.stop = True
 
         regexp = '[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}'
-        if len(re.findall(regexp, self.client_id)) != len(client_id):
+        if len(re.findall(regexp, self.client_id)) != len(self.client_id):
             self.stop = True
             print('Re-check env.json file')
 
